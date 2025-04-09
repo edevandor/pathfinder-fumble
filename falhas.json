@@ -1,0 +1,35 @@
+{
+    "proxima": [
+        "Foi de Propósito!: Você é movido por 3m em uma direção lógica. Esse movimento engatilha reações.",
+        "Ponta Errada: Se você estiver usando uma arma cortante, tome 1d6 de dano do mesmo tipo e persistente sangramento 1.",
+        "Tombou Feio: Você cai Prostrado e fica Lento 1 até o fim do seu próximo turno.",
+        "Como Assim?!: Você está Confuso",
+        "Mão Frouxa: Você toma -2 de Circunstância como penalidade nas rolagens de ataque com essa arma até o fim do seu próximo turno.",
+        "Comeu Terra: Você cai Prostrado e está Cego até o fim do seu próximo turno.",
+        "Tremedeira: Se estiver usando uma arma concusiva, você deixa a arma cair e fica Enfraquecido 2 até se curar.",
+        "Como Assim?!?: Você está Lento 1 até o fim do seu próximo turno.",
+        "Golpe no Escuro: Seus inimigos estão Escondidos para você até o fim do seu próximo turno.",
+        "Desequilbrio: Você toma -2 de Circunstância como penalidade na sua CA até o fim do seu próximo turno.",
+        "Escorregão: Você cai Prostrado.",
+        "Ansiedade: Você fica Adoecido 3."
+    ],
+    "distancia": [
+        "Medindo Errado: Até o fim do seu próximo turno, as penalidade por incremento de distância são dobradas",
+        "Vento Aleatório: -2 de Circunstância como penalidade nas rolagens de ataque a distância até o fim do seu próximo turno.",
+        "Tiro Tosco: Até se curar, você toma -3m de Circunstância no deslocamento terrestre e Desajeitado 1.",
+        "Não me Acerte!: Até o fim do seu próximo turno, cada vez que você errar um ataque a distância em um alvo próximo a qualquer um de seus aliados, você acerta um desses aliados aleatóriamente ao invés."
+    ],
+    "desarmada": [
+        "Sem Pontos Fracos: Você toma 1d6 de sangramento persistente e não pode usar esse ataque até o fim do seu próximo turno.",
+        "Nervo Puncionado: Até se curar, você toma -3m de Circunstância no deslocamento terrestre e Desajeitado 1.",
+        "Pensar Demais: Seu alvo ganha +2 de Circunstância na CA para seus ataques até o fim do seu próximo turno."
+
+    ],
+    "magia": [
+        "Mas que Demônio!: Sua magia se transforma em Invocar Servo Menor de mesmo Circulo, mas não maior que 4º, e invoca um Demônio para o nível apropriado, atacando uma vez quem está mais próximo.",
+        "Poder Diminuido: Até se curar, está Estupefato 2.",
+        "Dor de Cabeça: Você toma 3d6 de dano Mental e testa Fortitude. Em uma falha você fica Confuso.",
+        "Escorregão Mental: Você é controlado pelo seu alvo até o fim do seu próximo turno.",
+        "Tufão: Você testa Vontade, e se falhar é arremeçado 1d6*1,5m em uma direção aleatória."
+    ]
+}
