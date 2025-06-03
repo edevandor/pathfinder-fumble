@@ -131,11 +131,25 @@ body {
 .botao {
     position: fixed;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px); /* Largura ajustável com margens */
+    left: 20px; /* Alinha à esquerda com margem */
+    right: 20px; /* Alinha à direita com margem */
+    width: auto; /* Ajusta a largura automaticamente dentro das margens */
     max-width: 400px;
-    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    margin: 0 auto; /* Centraliza horizontalmente se a tela for maior que 400px */
+    z-index: 1000;
+    /* Mantenha o resto do seu estilo atual (cores, sombras, etc.) */
+    background: linear-gradient(145deg, #ff0000, #cc0000);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .carta {
