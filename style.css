@@ -121,3 +121,35 @@ body {
 .botao {
     background: linear-gradient(145deg, #ff0000, #cc0000);
 }
+
+/* Adicione estas regras ao final do seu arquivo style.css */
+
+.container {
+    padding-bottom: 80px; /* Espaço para o botão fixo */
+}
+
+.botao {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px); /* Largura ajustável com margens */
+    max-width: 400px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.carta {
+    margin-bottom: 20px; /* Espaço extra abaixo da carta */
+}
+
+/* Ajuste para telas muito pequenas */
+@media screen and (max-width: 480px) {
+    .botao {
+        width: calc(100% - 20px); /* Reduz a margem em telas pequenas */
+        padding: 12px 20px; /* Ajuste de padding para telas pequenas */
+    }
+
+    .container {
+        padding-bottom: 70px; /* Reduz o espaço para o botão em telas pequenas */
+    }
+}
