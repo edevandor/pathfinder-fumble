@@ -122,10 +122,8 @@ body {
     background: linear-gradient(145deg, #ff0000, #cc0000);
 }
 
-/* Adicione estas regras ao final do seu arquivo style.css */
-
 .container {
-    padding-bottom: 80px; /* Espaço para o botão fixo */
+    padding-bottom: 100px; /* Espaço para o botão fixo */
 }
 
 .botao {
@@ -158,12 +156,15 @@ body {
 
 /* Ajuste para telas muito pequenas */
 @media screen and (max-width: 480px) {
-    .botao {
-        width: calc(100% - 20px); /* Reduz a margem em telas pequenas */
-        padding: 12px 20px; /* Ajuste de padding para telas pequenas */
-    }
-
     .container {
-        padding-bottom: 70px; /* Reduz o espaço para o botão em telas pequenas */
+        padding-bottom: 90px; /* Reduz um pouco o espaço em telas menores */
+    }
+    
+    .carta {
+        margin-bottom: 15px;
+    }
+    
+    .botao {
+        padding: 12px 20px; /* Botão um pouco mais compacto */
     }
 }
